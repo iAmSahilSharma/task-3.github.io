@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      .container {
+        height: 1000px;
+        width: auto;
+      }
+      .first {
+        width: auto;
+        padding: 10px;
+        margin: 0px;
+        background-color: #99c4c8;
+        border-radius: 5px 5px 0px 0px;
+      }
+      .second {
+        width: auto;
+        padding: 30px;
+        margin: 0px;
+        font-weight: bolder;
+        font-size: large;
+        background-color: #68a7ad;
+      }
+      .rows{
+        width: 100%;
+      }
+      .third {
+        background-color: #f7ccac;
+        width: 450px;
+        height: 600px;
+        float: left;
+        border-radius: 0px 0px 5px 5px;
+      }
+      .fourth {
+        background-color: #c69b7b;
+        width: 511px;
+        height: 600px;
+        float: left;
+        border-radius: 0px 0px 5px 5px;
+      }
+      .fifth {
+        width: 463px;
+        height: 600px;
+        background-color: #f7ccac;
+        float: right;
+        border-radius: 0px 0px 5px 5px;
+      }
+      #img1{
+        margin: 2rem 0rem 0rem 4.2rem;
+    border: #000000 1px solid;
+      }
+      #img2{
+        margin: 2rem 0rem 0rem 6.8rem;
+    border: #000000 1px solid;
+      }
+      #img3{
+        margin: 2rem 0rem 0rem 4.2rem;
+    border: #000000 1px solid;
+      }
+      .p{
+        text-align: center;
+        margin:1rem 1rem 1rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <img
+          src="/img/starbucks-logo-png-1667.png"
+          width="auto"
+          height="70px"
+          alt="Klematis"
+        />
+      </div>
+    <div>
+        <div class="second">
+          <marquee
+            >⭕ We’re working hard to put the health and well-being of our
+            partners and customers first in all that we do. ⭕</marquee
+          >
+        </div>
+        <div class="rows">
+        <div class="third">
+          <img id="img1" src="./img/coffee.png" width="300px" height="300px" alt="coffee">
+          <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vel provident eos saepe veritatis cupiditate dolor minima velit deleniti itaque, eveniet exercitationem quae nobis possimus voluptates labore? Consequuntur, quod molestiae.</p>
+        </div>
+        <div class="fourth">
+          <img id="img2" src="./img/coffee2.png" width="300px" height="300px" alt="coffee">
+          <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et asperiores quisquam corporis recusandae, modi doloremque id vitae perferendis eaque sunt enim minus beatae quos debitis inventore praesentium earum. Sint, voluptatem!</p>
+        </div>
+        <div class="fifth">
+          <img id="img3" src="./img/coffee3.png" width="300px" height="300px" alt="coffee">
+          <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium reprehenderit exercitationem veniam repellat nesciunt optio modi maiores repellendus! Quam odit vero ex eveniet. Praesentium nam sapiente tempora necessitatibus placeat?</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
